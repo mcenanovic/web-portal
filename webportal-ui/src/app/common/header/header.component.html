@@ -1,0 +1,11 @@
+<header>
+    <button>
+        <img src="assets/icons/logo.png" alt="Logo">
+    </button>
+    <div class="options">
+        <div class="option" *ngFor="let category of categories; let i = index">
+            <div [style.background-color]="colors[i]" class="square"></div>
+            <button mat-flat-button>{{ category }}</button>
+        </div>
+    </div>
+</header>
