@@ -1,0 +1,13 @@
+.swiper-container {
+    padding-bottom: 30px;
+}
+
+section {
+    margin: 0 10%;
+}
+
+@media screen and (max-width: 599px) {
+    section {
+        margin: 0 8px;
+    }
+}

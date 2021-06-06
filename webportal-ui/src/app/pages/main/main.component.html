@@ -1,0 +1,16 @@
+<swiper [config]="config">
+    <ng-template swiperSlide *ngFor="let post of [].constructor(10)">
+        <wp-post-preview-headline></wp-post-preview-headline>
+    </ng-template>
+</swiper>
+
+<section 
+    gdColumns.lg="auto auto auto auto"
+    gdColumns.md="auto auto auto"
+    gdColumns.sm="auto auto"
+    gdColumns.xs="auto"
+    gdGap="16px"
+    gdGap.xs="8px"
+    >
+    <wp-card-default *ngFor="let card of [].constructor(10)"></wp-card-default>
+</section>

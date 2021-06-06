@@ -1,7 +1,6 @@
+@import 'src/assets/styles/variables.scss';
+
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 60px;
     background-color: #fff;
     position: sticky;
@@ -28,14 +27,7 @@ header {
 
 
     .options {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         .option {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             margin-right: 12px;
             
             .square {
@@ -49,7 +41,7 @@ header {
                 padding: 0 8px;
 
                 &:hover {
-                    color: lightblue;
+                    color: $primary;
                 }                
             }
 
