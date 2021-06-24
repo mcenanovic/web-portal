@@ -1,0 +1,30 @@
+@import 'src/assets/styles/variables.scss';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 0;
+  background-color: $light;
+  margin: 20px 0;
+
+  h2 {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  wp-card-shrinked-text {
+    border-top: 1px solid $background-white;
+    padding: 5px 0;
+
+    ::ng-deep {
+      .card {
+        height: fit-content;
+
+        &:hover {
+          color: $primary;
+          filter: brightness(100%);
+        }
+      }
+    }
+  }
+}

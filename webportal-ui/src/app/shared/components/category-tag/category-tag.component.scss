@@ -1,0 +1,18 @@
+@import 'src/assets/styles/variables.scss';
+
+a {
+    p {
+        display: inline;
+        border-radius: 10px;
+        padding: 5px 10px;
+        color: $light;
+        transition: all .3s;
+    }
+    
+    &:hover {
+        p {
+            opacity: 0.8;
+            border-radius: 15px;
+        }
+    }
+}

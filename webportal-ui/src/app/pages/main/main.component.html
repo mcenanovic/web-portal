@@ -9,8 +9,19 @@
     gdColumns.md="auto auto auto"
     gdColumns.sm="auto auto"
     gdColumns.xs="auto"
-    gdGap="16px"
-    gdGap.xs="8px"
-    >
-    <wp-card-default *ngFor="let card of [].constructor(10)"></wp-card-default>
+    gdGap="8px"
+    gdGap.xs="4px"
+>
+    <wp-card-default *ngFor="let card of [].constructor(12)"></wp-card-default>
+</section>
+<section
+    gdColumns.lg="auto auto auto auto"
+    gdColumns.md="auto auto auto"
+    gdColumns.sm="auto auto"
+    gdColumns.xs="auto"
+    gdGap="4px"
+    gdGap.xs="2px"
+    class="mt3"
+>
+    <wp-card-shrinked-text *ngFor="let card of [].constructor(8)"></wp-card-shrinked-text>
 </section>

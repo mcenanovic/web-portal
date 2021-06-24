@@ -1,7 +1,18 @@
 .card {
+    &:hover {
+        & {
+            filter: brightness(90%);
+        }
+
+        .preview {
+            filter: brightness(70%);
+        }
+    }
+    
+    height: 320px;
     position: relative;
 
-    .category {
+    wp-category-tag {
         position: absolute;
         top: 5%;
         left: 5%;
@@ -28,7 +39,7 @@
     .card {
         height: 160px;
 
-        .category {
+        wp-category-tag {
             top: 4%;
             left: auto;
             right: 2%;

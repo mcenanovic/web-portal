@@ -10,12 +10,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './common/header/header.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SwiperModule } from 'swiper/angular';
+import { FooterComponent } from './common/footer/footer.component';
+import { PostComponent } from './pages/post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MainComponent,
+    FooterComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

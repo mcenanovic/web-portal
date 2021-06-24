@@ -1,0 +1,39 @@
+@import 'src/assets/styles/variables.scss';
+
+.comment {
+  background-color: $light;
+  border: 3px solid $background-white;
+
+  > header {
+    border-bottom: 1px solid $background-white;
+
+    h2, p {
+      margin-bottom: 0;
+    }
+  }
+
+  > h4 {
+    border-bottom: 1px solid $background-white;
+  }
+
+  .rating {
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+      h4 {
+        margin-bottom: 0;
+      }
+    }
+
+    .up {
+      color: green;
+    }
+
+    .down {
+      color: red;
+    }
+
+  }
+}

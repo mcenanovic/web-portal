@@ -1,0 +1,28 @@
+@import 'src/assets/styles/variables.scss';
+
+footer {
+  background-color: $dark;
+  padding: 15px;
+
+  section {
+    > a {
+      color: $light;
+      padding: 10px;
+      font-size: 16px;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $primary;
+      }
+
+      > svg {
+        fill: white;
+        transition: all 0.3s;
+
+        &:hover {
+          fill: $primary;
+        }
+      }
+    }
+  }
+}
